@@ -92,6 +92,7 @@ a{
     width: 100%;
     text-align: center;
     transition: 0.3s;
+    opacity: 0.9;
   }
 
   .nav-itmes{
