@@ -106,5 +106,18 @@ a{
 .container{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
   margin-top: 2rem;
+}
+
+.menu-ex{
+margin: 50px;
+padding: 10px;
+border: 4mm ridge rgba(211, 220, 50, .6);
+}
+
+.menu-ex:hover{
+  transition: 0.5s ease;
+  background-color: rgb(255, 232, 103);
 }
