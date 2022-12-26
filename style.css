@@ -209,7 +209,10 @@ header .fa-bars{
 
 .review{
   background:var(--black);
+}
 
+.review .heading{
+  color: #fff;
 }
 
 .review .box-container{
