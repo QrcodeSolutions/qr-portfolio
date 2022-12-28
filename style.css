@@ -441,6 +441,11 @@ header .fa-times{
 
 @media (max-width:768px){
 
+  .imglogo{
+    height: 400px;
+
+  }
+
   html{
     font-size: 55%;
   }
