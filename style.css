@@ -446,6 +446,10 @@ header .fa-times{
 
   }
 
+  .menus-img{
+    width: 250px;
+  }
+
   html{
     font-size: 55%;
   }
@@ -496,4 +500,73 @@ header .fa-times{
     width:100%;
   }
 
+
+ }
+
+
+
+.menus-container{
+  overflow: initial;
+}
+
+.menus-content{
+  display: grid;
+  justify-content: center;
+}
+
+.menus-img{
+  width: 70rem;
+  height: auto;
+  border-radius: .75rem;
+  margin-bottom: 1.25;
+}
+
+.menues-subtitle{
+  font-size: small;
+  color: #ccc;
+}
+
+.menus-title{
+  margin-bottom: 1.25rem;
+  margin: .5rem 0 1.25rem;
+  color: #fff;
+}
+
+.menus-button{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.menus-button i{
+  font-size: 4rem;
+  transition: transform .3s;
+}
+
+.menus-button:hover i{
+  transform: translateX(.35rem)
+}
+
+.menus-container .swiper-button-prev::after,
+.menus-container .swiper-button-next::after{
+  content: '';
+}
+
+.menus-container .swiper-button-prev,
+.menus-container .swiper-button-next{
+  width: initial;
+  height: initial;
+  margin: initial;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.menus-container .swiper-slide{
+  margin-bottom: 8rem;
+}
+
+.menus-container .swiper-pagination-bullets{
+  bottom: 0;
 }

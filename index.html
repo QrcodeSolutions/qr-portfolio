@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- swiper js cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.css" integrity="sha512-jxGmKjC/OykrTklkNK2NgnhNtKtUAADFY+rvSi3nA7dbaPRfjrSXYxHqX8iq5N6WTOntqEQZrEwW3L84sirfKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
 
@@ -32,7 +34,7 @@
             <li><a href="#home">home</a></li>
             <li><a href="#about">about</a></li>
             <li><a href="#facility">Team</a></li>
-            <li><a href="#review">Examples</a></li>
+            <li><a href="#menus">Examples</a></li>
             <li><a href="#contact">contact</a></li>
             <li><a href="#post">busniess</a></li>
         </ul>
@@ -61,7 +63,7 @@
         <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
             <h1>Why choose us?</h1>
             <h3>Upgrade your buisness with the scan of a Qr code</h3>
-            <button class="button">Scroll down</button>
+            <a href="#about"><button class="button">Scroll down</button></a>
         </div>
 
     </div>
@@ -85,17 +87,17 @@
 
             <div class="box">
                 <h3><i class="fas fa-qrcode"></i> Custom Qrcodes </h3>
-                <p>We provide qr codes for your web pages. Come checkout all the styles you can create!</p>
+                <p>We provide a qr code on 100 buisness cards with your deployed site.  </p>
             </div>
 
             <div class="box">
                 <h3> <i class="fa-solid fa-computer"></i> Websites </h3>
-                <p>Give your small busniess a web page to land on. Look through our templates and we will give it a unique design to fit your style.</p>
+                <p>our wizard develpoing team will customize a beautiful display of your items for sale.</p>
             </div>
 
             <div class="box">
-                <h3> <i class="fa-sharp fa-solid fa-rectangle-ad"></i> Free Advertive </h3>
-                <p>We showcase your small buisness on our page to help improve sales.</p>
+                <h3> <i class="fa-sharp fa-solid fa-rectangle-ad"></i> Free Advertisement </h3>
+                <p>a showcase of your buisness will be located on our website </p>
             </div>
 
         </div>
@@ -148,64 +150,90 @@
 
 <!-- facility section ends -->
 
-<!-- review section starts  -->
 
-<section class="review" id="review">
 
-<div class="container min-vh-100">
+<!-- slider section -->
 
-<h1 class="heading"><span>'</span> Our Templates <span>'</span></h1>
+<section class="review " id="menus">
+    <div class=" min-vh-100">
+   
+    <h1 class="heading"><span>'</span> Our menus <span>'</span></h1>
 
-<div class="box-container">
+    
+        <div class="menus-container swiper">
+            <div class="swiper-wrapper align-items-center">
+                <!-- template -->
+                <div class="menus-content swiper-slide " data-aos="zoom-out">
+                    <img class="menus-img"  src="./templates/menu1.png" alt="menu 1">
 
-    <div class="box" data-aos="fade-right">
-        <img src="templates/menu4.png" alt="">
-        <div class="content">
-            <span>jan 5, 2021</span>
-            <a href="#"><h3>post title goes here</h3></a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ex porro libero at veniam molestias facere quo necessitatibus ipsum ad?</p>
-            <a href="https://qrcodesolutions.github.io/menu-four/" target="_blank"><button class="button">learn more</button></a>
+                    <div>
+                        
+                        <h1 class="menus-title"><i class="fas fa-dollar-sign"></i>100 / month</h1>
+                        <a class="menus-button" href="https://qrcodesolutions.github.io/menu-one/" target="_blank" >
+                            View demo <i class="fas fa-angle-double-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- end template -->
+                  <!-- template -->
+                  <div class="menus-content swiper-slide">
+                    <img class="menus-img"  src="./templates/menu4.png" alt="menu 1">
+
+                    <div>
+                        
+                        <h1 class="menus-title"><i class="fas fa-dollar-sign"></i>150 / month</h1>
+                        <a href="https://qrcodesolutions.github.io/menu-four/" class="menus-button">
+                            View demo <i class="fas fa-angle-double-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- end template -->
+                  <!-- template -->
+                  <div class="menus-content swiper-slide">
+                    <img class="menus-img"  src="./templates/menu5.png" alt="menu 1">
+
+                    <div>
+                        
+                        <h1 class="menus-title"><i class="fas fa-dollar-sign"></i>100 / month</h1>
+                        <a href="https://qrcodesolutions.github.io/menu-five/" class="menus-button">
+                            View demo <i class="fas fa-angle-double-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- end template -->
+                  <!-- template -->
+                  <div class="menus-content swiper-slide">
+                    <img class="menus-img"  src="./templates/menu6.png" alt="menu 1">
+
+                    <div>
+                        
+                        <h1 class="menus-title"><i class="fas fa-dollar-sign"></i>150 / month</h1>
+                        <a href="https://qrcodesolutions.github.io/menu-six/" class="menus-button">
+                            View demo <i class="fas fa-angle-double-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- end template -->
+                
+            </div>
+
+            <div class="swiper-button-next">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+
         </div>
+    
     </div>
-
-    <div class="box" data-aos="fade-right">
-        <img src="templates/menu1.png" alt="">
-        <div class="content">
-            <span>jan 5, 2021</span>
-            <a href="#"><h3>post title goes here</h3></a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ex porro libero at veniam molestias facere quo necessitatibus ipsum ad?</p>
-            <a href="https://qrcodesolutions.github.io/menu-one/" target="_blank"><button class="button">learn more</button></a>
-        </div>
-    </div>
-
-    <div class="box" data-aos="fade-right">
-        <img src="templates/menu5.png" alt="">
-        <div class="content">
-            <span>jan 5, 2021</span>
-            <a href="#"><h3>post title goes here</h3></a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ex porro libero at veniam molestias facere quo necessitatibus ipsum ad?</p>
-            <a href="https://qrcodesolutions.github.io/menu-five/" target="_blank"><button class="button">learn more</button></a>
-        </div>
-    </div>
-
-    <div class="box" data-aos="fade-right">
-        <img src="templates/menu6.png" alt="">
-        <div class="content">
-            <span>jan 5, 2021</span>
-            <a href="#"><h3>post title goes here</h3></a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ex porro libero at veniam molestias facere quo necessitatibus ipsum ad?</p>
-            <a href="https://qrcodesolutions.github.io/menu-six/" target="_blank"><button class="button">learn more</button></a>
-        </div>
-    </div>
-
-
-</div>
-
-</div>
 
 </section>
 
-<!-- review section ends  -->
+
+
+
 
 <!-- counter section starts  -->
 
@@ -323,34 +351,24 @@
 
         <div class="row">
 
-            <div class="col-md-4" data-aos="fade-right">
+            <div class="col-md-4" data-aos="zoom-out">
                 <a href="#" class="logo"><span>Qr</span>code<span>S</span>olutions</a>
                 <p>Let us advance your dreams</p>
+                <h1 class="credit text-center mx-auto">&copy; Qrcode Solutions | All Rights Reserve | Terms Of Service | Privacy</h1>
+
             </div>
 
-            <div class="col-md-4 text-center" data-aos="fade-up">
-                <h3>links</h3>
-                <a href="#">home</a>
-                <a href="#">about</a>
-                <a href="#">facility</a>
-                <a href="#">review</a>
-                <a href="#">contact</a>
-                <a href="#">post</a>
-            </div>
+          
 
 
         </div>
 
     </div>
 
-    <h1 class="credit text-center mx-auto">&copy; Qrcode Solutions | All Rights Reserve | Terms Of Service | Privacy</h1>
 
 </section>
 
 <!-- footer section ends -->
-
-
-
 
 
 
@@ -374,6 +392,9 @@
 
 <!-- aos js file cdn link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<!-- swiperjs cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js" integrity="sha512-wdUM0BxMyMC/Yem1RWDiIiXA6ssXMoxypihVEwxDc+ftznGeRu4s9Fmxl8PthpxOh5CQ0eqjqw1Q8ScgNA1moQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <!-- custom js link  -->
 <script src="main.js"></script>

@@ -27,3 +27,18 @@ $(document).ready(function(){
   });
 
 });
+
+var swiperMenus = new Swiper(".menus-container", {
+  loop: true,
+  spaceBetween: 24,
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  moussewheel: true,
+  keyboard: true,
+});
