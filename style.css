@@ -442,8 +442,9 @@ header .fa-times{
 @media (max-width:768px){
 
   .imglogo{
-    height: 400px;
-
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0;
   }
 
   .menus-img{
@@ -515,7 +516,7 @@ header .fa-times{
 }
 
 .menus-img{
-  width: 70rem;
+  width: 30rem;
   height: auto;
   border-radius: .75rem;
   margin-bottom: 1.25;
@@ -560,7 +561,7 @@ header .fa-times{
   height: initial;
   margin: initial;
   font-size: 2.5rem;
-  color: #fff;
+  color: #0188DF;
 }
 
 .menus-container .swiper-slide{
@@ -570,3 +571,52 @@ header .fa-times{
 .menus-container .swiper-pagination-bullets{
   bottom: 0;
 }
+
+.img{
+  user-select: none;
+}
+
+.team .slide{
+  text-align: center;
+}
+
+.team .slide:hover .team-img .share{
+  bottom: 0;
+}
+
+.team .slide .team-img{
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.team .slide .team-img .share{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10rem;
+  padding: 2rem;
+  background: rgba(0,0,0,0,0.8);
+}
+
+.team .slide .team-img .share a{
+  font-size: 3rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+
+.team .slide .team-img .share a:hover{
+  color: #0188DF;
+}
+
+.team .slide .team-content h3{
+  font-size: 2rem;
+  
+}
+
+.team .slide .team-content span{
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #0188DF;
+}
+

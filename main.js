@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 var swiperMenus = new Swiper(".menus-container", {
   loop: true,
-  spaceBetween: 24,
+  spaceBetween: 20,
 
   navigation: {
     nextEl: ".swiper-button-next",
@@ -41,4 +41,15 @@ var swiperMenus = new Swiper(".menus-container", {
   },
   moussewheel: true,
   keyboard: true,
+  breakpoints: {
+    0:{
+      slidesPerView: 1,
+    },
+    768:{
+      slidesPerView: 2,
+    },
+    991:{
+      slidesPerView: 3,
+    },
+  }
 });
